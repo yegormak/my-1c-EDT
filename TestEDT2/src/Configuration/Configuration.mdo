@@ -42,4 +42,5 @@
   <commonCommands>CommonCommand.НайтиТоварПоНаименованию</commonCommands>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ПродажаТовара</documents>
 </mdclass:Configuration>

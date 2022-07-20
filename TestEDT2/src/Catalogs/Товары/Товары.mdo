@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e0fe4c5-990c-4336-bf94-19dd25bb22fc">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e0fe4c5-990c-4336-bf94-19dd25bb22fc">
   <producedTypes>
     <objectType typeId="8c940c3f-59b2-48c2-ab45-2ea374a5bb81" valueTypeId="8fa34260-5a51-4f61-8a46-7a47ea26e162"/>
     <refType typeId="99f7bd90-ba0b-437c-bda4-ae0b1975eca2" valueTypeId="3e809fc2-10a1-4843-89c4-90581323e4ac"/>
@@ -30,4 +30,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8558e502-2fbe-4b58-8f68-8154eb3850a8">
+    <name>ЭтоУслуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это услуга</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
